@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+   html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/Pink\ Clouds\ A4\ Stationary\ Paper\ Border.png");
+    background-size: cover;
+    width:100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+   }
+   h1{
+    color: #1f1f25;
+    font-size: 3rem;
+    font-weight:800;
+    text-align: center;
+    color: #fd4766;
+    margin-bottom: 25px;
+   }
+   p{
+    text-align:center;
+    font-size: 1rem;
+    font-weight:700;
+   }
+   .About span {
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .About{
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; 
+  }
+  .nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #fd4766;
+}
+.header{
+  display:flex;
+  flex-direction: column;
+  align-items:end;
+  }
+.nav{  
+  --bs-nav-link-color: #fd4766;
+  --bs-nav-link-hover-color:black;
+}
+.Skills{
+  background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  .links{
+    display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap: 20px;
+
+  }
+  #list span {
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#list li{
+   font-weight:bold;
+   font-size: large;
+}
+
+.Skills{
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40%;
+  margin:30px;
+}
+ 
+#list{
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40%;
+}
+
+#item{
+  margin: 1rem;
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+}
+ @media (max-width:600px){
+  .About h1{
+    font-size: 2rem;
+  }
+  .About p{
+    font-size: 14px;
+  }
+  .Skills{
+    padding-left:5%;
+    margin:15px;
+  }
+  #list{
+    padding-left:5%;
+  }
+} 
+
+ @media (min-width:768px) and (max-width:1200px){
+  .Skills{
+    padding-left:32%;
+  }
+  #list{
+    padding-left:32%;
+  }
+  html,body{
+    background-size: cover;
+  }
+} 
